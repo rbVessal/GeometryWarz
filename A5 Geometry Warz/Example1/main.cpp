@@ -5,12 +5,14 @@
 //   those colors across the triangles.
 //
 
-#include "Angel.h"
+#include "Cube.h"
 
 typedef Angel::vec4  color4;
 typedef Angel::vec4  point4;
 
-const int NumVertices = 36; //(6 faces)(2 triangles/face)(3 vertices/triangle)
+Cube* cube;
+
+//const int NumVertices = 36; //(6 faces)(2 triangles/face)(3 vertices/triangle)
 
 point4 points[NumVertices];
 color4 colors[NumVertices];
@@ -62,6 +64,7 @@ GLuint  projection; // projection matrix uniform shader variable location
 // quad generates two triangles for each face and assigns colors
 //    to the vertices
 
+/*
 int Index = 0;
 
 void quad( int a, int b, int c, int d )
@@ -86,13 +89,18 @@ void colorcube()
     quad( 4, 5, 6, 7 );
     quad( 5, 4, 0, 1 );
 }
+*/
 
 //----------------------------------------------------------------------------
 
 // OpenGL initialization
 void init()
 {
-    colorcube();
+	cube = new Cube();
+	cube->init();
+
+	/*
+	colorcube();
 
     // Create a vertex array object
     GLuint vao;
@@ -130,13 +138,17 @@ void init()
     
     glEnable( GL_DEPTH_TEST );
     glClearColor( 1.0, 1.0, 1.0, 1.0 ); 
+
+	*/
 }
 
 //----------------------------------------------------------------------------
 
 void display( void )
 {
-    glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
+	cube->display();
+
+    /*glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 
     point4  eye( radius*sin(theta)*cos(phi),
 		 radius*sin(theta)*sin(phi),
@@ -153,7 +165,7 @@ void display( void )
 
     glDrawArrays( GL_TRIANGLES, 0, NumVertices );
 
-    glutSwapBuffers();
+    glutSwapBuffers();*/
 }
 
 //----------------------------------------------------------------------------
@@ -222,7 +234,11 @@ int main( int argc, char **argv )
     glutKeyboardFunc( keyboard );
     glutReshapeFunc( reshape );
 
+	glutSetOption(GLUT_ACTION_ON_WINDOW_CLOSE, GLUT_ACTION_CONTINUE_EXECUTION); // Let the program continue after main loop
     glutMainLoop();
+
+	delete cube;
+
     return 0;
 }
 
