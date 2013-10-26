@@ -64,8 +64,7 @@ GLuint  projection; // projection matrix uniform shader variable location
 
 int Index = 0;
 
-void
-quad( int a, int b, int c, int d )
+void quad( int a, int b, int c, int d )
 {
     colors[Index] = vertex_colors[a]; points[Index] = vertices[a]; Index++;
     colors[Index] = vertex_colors[b]; points[Index] = vertices[b]; Index++;
@@ -92,8 +91,7 @@ colorcube()
 //----------------------------------------------------------------------------
 
 // OpenGL initialization
-void
-init()
+void init()
 {
     colorcube();
 
@@ -135,8 +133,7 @@ init()
 
 //----------------------------------------------------------------------------
 
-void
-display( void )
+void display( void )
 {
     glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 
@@ -160,8 +157,7 @@ display( void )
 
 //----------------------------------------------------------------------------
 
-void
-keyboard( unsigned char key, int x, int y )
+void keyboard( unsigned char key, int x, int y )
 {
     switch( key ) {
 	case 033: // Escape Key
@@ -201,16 +197,14 @@ keyboard( unsigned char key, int x, int y )
 
 //----------------------------------------------------------------------------
 
-void
-reshape( int width, int height )
+void reshape( int width, int height )
 {
     glViewport( 0, 0, width, height );
 }
 
 //----------------------------------------------------------------------------
 
-int
-main( int argc, char **argv )
+int main( int argc, char **argv )
 {
     glutInit( &argc, argv );
     glutInitDisplayMode( GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH );
