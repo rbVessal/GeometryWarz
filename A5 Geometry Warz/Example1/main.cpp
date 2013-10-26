@@ -77,8 +77,7 @@ void quad( int a, int b, int c, int d )
 //----------------------------------------------------------------------------
 
 // generate 12 triangles: 36 vertices and 36 colors
-void
-colorcube()
+void colorcube()
 {
     quad( 1, 0, 3, 2 );
     quad( 2, 3, 7, 6 );
@@ -123,6 +122,8 @@ void init()
     glEnableVertexAttribArray( vColor );
     glVertexAttribPointer( vColor, 4, GL_FLOAT, GL_FALSE, 0,
 			   BUFFER_OFFSET(sizeof(points)) );
+
+	//
 
     model_view = glGetUniformLocation( program, "model_view" );
     projection = glGetUniformLocation( program, "projection" );
