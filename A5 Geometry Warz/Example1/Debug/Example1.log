@@ -1,29 +1,32 @@
-﻿Build started 10/26/2013 2:16:45 PM.
-     1>Project "\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Example1\Example1.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/26/2013 2:35:56 PM.
+     1>Project "\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Example1\Example1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp InitShader.cpp
+         InitShader.cpp
          main.cpp
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(48): warning C4244: 'initializing' : conversion from 'double' to 'const GLfloat', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(169): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(170): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(171): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(172): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(173): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
-     1>\\banner.main.ad.rit.edu\students\rbv7405\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(174): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(48): warning C4244: 'initializing' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(169): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(170): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(171): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(172): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(173): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+     1>\\banner.main.ad.rit.edu\students\jas2715\igmprofile\desktop\github\geometrywarz\a5 geometry warz\example1\main.cpp(174): warning C4305: '*=' : truncation from 'double' to 'GLfloat'
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.exe" /INCREMENTAL /NOLOGO glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.lib" /MACHINE:X86 Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.exe" /INCREMENTAL /NOLOGO glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.lib" /MACHINE:X86 Debug\main.obj
          Debug\InitShader.obj
-         Example1.vcxproj -> \\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.exe
+         LINK : \\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.exe not found or not built by the last incremental link; performing full link
+         Example1.vcxproj -> \\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug\Perspective.exe
        PostBuildEvent:
-         xcopy "\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin" "\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug" /y
+         xcopy "\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin" "\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Debug" /y
          :VCEnd
-         \\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\freeglut.dll
-         \\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\glew32.dll
-         \\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\glew32mx.dll
-         \\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\GLFW.dll
+         \\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\GLFW.dll
+         \\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\freeglut.dll
+         \\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\glew32.dll
+         \\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\GL\x86\bin\glew32mx.dll
          4 File(s) copied
-     1>Done Building Project "\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Example1\Example1.vcxproj" (Build target(s)).
+     1>Done Building Project "\\banner.main.ad.rit.edu\students\jas2715\IGMProfile\Desktop\GitHub\GeometryWarz\A5 Geometry Warz\Example1\Example1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:10.21
+Time Elapsed 00:00:07.78
